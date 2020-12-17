@@ -171,7 +171,7 @@ html {
 }
 
 body {
-  background: #2e3842;
+  background: transparent;
 }
 
 body.is-preload *,
@@ -2976,23 +2976,23 @@ button:disabled,
 }
 
 .wrapper.style1 ::-webkit-input-placeholder {
-  color: #a6e0db !important;
+  color: #ffffff !important;
 }
 
 .wrapper.style1 :-moz-placeholder {
-  color: #a6e0db !important;
+  color: #ffffff !important;
 }
 
 .wrapper.style1 ::-moz-placeholder {
-  color: #a6e0db !important;
+  color: #ffffff !important;
 }
 
 .wrapper.style1 :-ms-input-placeholder {
-  color: #a6e0db !important;
+  color: #ffffff !important;
 }
 
 .wrapper.style1 .formerize-placeholder {
-  color: #a6e0db !important;
+  color: #ffffff !important;
 }
 
 .wrapper.style1 .icon.major {
