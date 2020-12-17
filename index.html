@@ -125,7 +125,7 @@
           </p>
         </div>
           <section>
-            <form method="post" action="#">
+            <form method="post" onclick="formSubmit();">
               <div class="fields">
                 <div class="field half">
                   <label for="name">Name</label>
@@ -146,6 +146,7 @@
                     type="submit"
                     value="Nachricht senden"
                     class="primary"
+					onclick="formSubmit();"
                   />
                 </li>
                 <li><input type="reset" value="Löschen" /></li>
