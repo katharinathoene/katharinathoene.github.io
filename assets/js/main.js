@@ -91,5 +91,10 @@
 
   function formSubmit() {
     console.log("Form Submitted");
+    var data;
+    $("#contact_form input").each(function () {
+      data[theFieldName] = theFieldValue;
+    });
+    console.log(data);
   }
 })(jQuery);
