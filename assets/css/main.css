@@ -4198,3 +4198,9 @@ body.is-mobile.landing #footer {
     padding: 3em 0 1em 0;
   }
 }
+
+@media screen and (max-width: 900px) {
+  #footer > .image {
+    display: none;
+  }
+}
