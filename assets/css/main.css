@@ -4165,6 +4165,10 @@ body.is-mobile.landing #footer {
 }
 
 @media screen and (max-width: 980px) {
+  #contact {
+    background-color: #000000;
+  }
+
   #contact > .inner {
     display: block;
   }
