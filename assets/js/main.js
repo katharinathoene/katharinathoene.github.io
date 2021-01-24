@@ -88,7 +88,6 @@
   }
 
   // Form Handling.
-
   function formSubmit() {
     console.log("Form Submitted");
     var data;
@@ -96,5 +95,15 @@
       data[theFieldName] = theFieldValue;
     });
     console.log(data);
+
+    Email.send({
+      Host: "smtp.gmail.com",
+      Username: "donaunusswebmail@gmail.com",
+      Password: "TODO",
+      To: "donaunuss@gmail.com",
+      From: "donaunusswebmail@gmail.com",
+      Subject: "New Website Form Submission!",
+      Body: "TODO And this is the body", // TODO
+    }).then((message) => alert(message));
   }
 })(jQuery);
